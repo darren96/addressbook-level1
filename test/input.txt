@@ -92,6 +92,15 @@
   list
 
 ##########################################################
+# test update command
+##########################################################
+  # should update correctly
+  update Betsy Choo p/111111 e/betsychoo@nus.edu.sg
+
+  # should catch attempt to delete something not in the address book
+  update Darren Ong p/223332 e/darrenong@nus.edu.sg
+
+##########################################################
 # test clear command
 ##########################################################
 

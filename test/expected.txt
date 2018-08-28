@@ -55,6 +55,10 @@
 || 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
 || 	Example: add John Doe p/98765432 e/johnd@gmail.com
 || 
+|| update: Updates phone number and email of a person in the address book.
+|| 	Parameters: Name p/PHONE_NUMBER e/EMAIL
+|| 	Example: update John Doe p/98765432 e/johnd@gmail.com
+|| 
 || find: Finds all persons whose names contain any of the specified keywords (case-sensitive) and displays them as a list with index numbers.
 || 	Parameters: KEYWORD [MORE_KEYWORDS]
 || 	Example: find alice bob charlie
@@ -267,6 +271,12 @@
 || 	2. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
 || 
 || 2 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  update Betsy Choo p/111111 e/betsychoo@nus.edu.sg]
+|| Betsy Choo updated, Phone: 111111, Email: betsychoo@nus.edu.sg
+|| ===================================================
+|| Enter command: || [Command entered:  update Darren Ong p/223332 e/darrenong@nus.edu.sg]
+|| Person could not be found in address book
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
